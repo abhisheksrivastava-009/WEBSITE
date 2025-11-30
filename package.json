@@ -1,0 +1,12 @@
+{
+  "name": "my_portfolio-main",
+  "version": "1.0.0",
+  "description": "```\r website/\r ├── index.html      ✅ Main homepage with all sections and navigation\r ├── about.html      ✅ Interactive about page with animations\r ├── skills.html     ✅ Skills showcase with progress bars\r ├── projects.html   ✅ Project portfolio with tech stack info\r ├── contact.html    ✅ Contact page with forms and social links\r ├── style.css       ✅ Neo-brutalist styling\r ├── script.js       ✅ GSAP animations and interactions\r ├── RPic.jpg        ✅ Profile photo\r └── test-links.html ✅ Link testing page\r ```",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
