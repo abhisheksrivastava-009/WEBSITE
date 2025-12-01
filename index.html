@@ -196,7 +196,7 @@
     <section id="contact" style="margin: 40px 0; padding: 30px; background: white; border: 4px solid black; border-radius: 15px; box-shadow: 8px 8px 0 black;">
       <h2 style="font-family: 'Bebas Neue', cursive; font-size: 2.5rem; text-align: center; margin-bottom: 30px;">Contact Me</h2>
       
-      <form id="contactForm" style="max-width: 600px; margin: 0 auto;">
+      <form id="contactForm" action="https://formsubmit.co/abhisheksrivastavaas095@gmail.com" method="POST"  style="max-width: 600px; margin: 0 auto;">
         <div style="margin-bottom: 20px;">
           <input type="text" name="name" placeholder="Your Name" required 
                  style="width: 100%; padding: 15px; border: 4px solid black; border-radius: 8px; font-size: 16px; font-family: 'Roboto Mono', monospace; box-sizing: border-box;">
@@ -213,13 +213,15 @@
         </div>
         
         <div style="margin-bottom: 20px;">
-          <button type="submit" 
+          <!-- <button type="submit" 
             style="width: 100%; padding: 15px; background: #fbbf24; color: black; border: 4px solid black; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; font-family: 'Roboto Mono', monospace;"> Send Message
-          </button>
+          </button> -->
+           <button type="submit" style="width: 100%; padding: 15px; background: #fbbf24; color: black; border: 4px solid black; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; font-family: 'Roboto Mono', monospace;" id="form-submit" ><a href="mailto:abhisheksrivastavaas095@gmail.com"></a> Send Message</button> 
+
         </div>
-          <div id="formAlert" style="display: none; padding: 15px; background: #10b981; color: white; border: 4px solid black; border-radius: 8px; text-align: center; font-family: 'Roboto Mono', monospace;">
+          <!-- <div id="formAlert" style="display: none; padding: 15px; background: #10b981; color: white; border: 4px solid black; border-radius: 8px; text-align: center; font-family: 'Roboto Mono', monospace;">
           Message sent! (Demo only)
-        </div>
+        </div> -->
       </form>
       
       <!-- Full Contact Page Button -->
